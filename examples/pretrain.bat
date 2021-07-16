@@ -32,4 +32,5 @@ python run_pretrain.py \
     --mlm_probability 0.025 \
     --warmup_steps 10000 \
     --overwrite_output_dir \
-    --n_process 24
+    --n_process 24 \
+    --model_name_or_path=/mnt/c/Users/m3maf/Documents/BCB/DNABERT/examples/OUTPUT/pre/failed-3mer/checkpoint-2500/ 

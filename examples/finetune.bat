@@ -1,7 +1,7 @@
-export KMER=6
-export MODEL_PATH='/mnt/c/Users/m3maf/Documents/DNABERT/models/6-new-12w-0/'
-export DATA_PATH='/mnt/c/Users/m3maf/Documents/DNABERT/examples/sample_data/ft/prom-core/3'
-export OUTPUT_PATH='/mnt/c/Users/m3maf/Documents/DNABERT/examples/OUTPUT/6mer'
+export KMER=3
+export MODEL_PATH='/mnt/c/Users/m3maf/Documents/BCB/DNABERT/examples/OUTPUT/pre/3mer/checkpoint-8000'
+export DATA_PATH='/mnt/c/Users/m3maf/Documents/BCB/DNABERT/examples/sample_data/ft/prom-core/3/'
+export OUTPUT_PATH='/mnt/c/Users/m3maf/Documents/BCB/DNABERT/examples/OUTPUT/fit/my3mer/'
 
 python run_finetune.py \
     --model_type dna \

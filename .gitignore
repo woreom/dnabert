@@ -13,3 +13,4 @@ src/transformers/__pycache__
 src/transformers.egg-info
 .ipynb_checkpoints
 examples/OUTPUT
+models/
