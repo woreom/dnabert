@@ -9,8 +9,12 @@ examples/results
 examples/data_old
 examples/data
 examples/OUTPUT/ft/*
-examples/OUTPUT/pre/*
+examples/OUTPUT/pre/5_mer.txt
+examples/OUTPUT/pre/6_mer.txt
+examples/sample_data/pre/5_mer.txt
+examples/sample_data/pre/6_mer.txt
 examples/models/*
+examples/unprocessed_data/pre/*
 src/transformers/data/__pycache__
 src/transformers/data/metrics/__pycache__
 src/transformers/data/processors/__pycache__
